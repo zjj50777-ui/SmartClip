@@ -1,0 +1,23 @@
+name: Bug Report
+description: Report a bug in SmartClip
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    attributes:
+      label: Describe the bug
+      placeholder: What happened? What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. ...\n2. ...\n3. ..."
+  - type: input
+    attributes:
+      label: Python version
+      placeholder: "3.11"
+  - type: input
+    attributes:
+      label: OS
+      placeholder: "Windows 11"
